@@ -7,9 +7,28 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
+    @IBAction func cymbal(_ sender: Any) {
+        do{
+        cymbalPlayer = try AVAudioPlayer(contentsOf: cymbalPath, fileTypeHint:nil)
+        cymbalPlayer.play()
+        }catch{
+            print("エラー：シンバル")
+        }
+    }
+    
+    @IBAction func guitar(_ sender: Any) {
+        do {
+            guitarPlayer = try AVAudioPlayer(contentsOf:guitarPath, fileTypeHint:nil)
+            guitarPlayer.play()
+        }catch{
+            print("エラー：ギター")
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,6 +38,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    let cymbalPath = Bundle.main.bundleURL.appendingPathComponent("tw080.mp3")
+    var cymbalPlayer = AVAudioPlayer()
+    let guitarPath = Bundle.main.bundleURL.appendingPathComponent("tw069.mp3")
+    var guitarPlayer = AVAudioPlayer()
 
 
 }

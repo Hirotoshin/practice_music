@@ -15,6 +15,8 @@
 		7DDAB3191FCC41E000CF07F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDAB3171FCC41E000CF07F4 /* LaunchScreen.storyboard */; };
 		7DDAB3241FCC41E000CF07F4 /* practice_musicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDAB3231FCC41E000CF07F4 /* practice_musicAppTests.swift */; };
 		7DDAB32F1FCC41E000CF07F4 /* practice_musicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDAB32E1FCC41E000CF07F4 /* practice_musicAppUITests.swift */; };
+		7DDAB33D1FCC4A4400CF07F4 /* tw080.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7DDAB33C1FCC4A4400CF07F4 /* tw080.mp3 */; };
+		7DDAB33F1FCC4A4E00CF07F4 /* tw069.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7DDAB33E1FCC4A4E00CF07F4 /* tw069.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7DDAB32A1FCC41E000CF07F4 /* practice_musicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practice_musicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDAB32E1FCC41E000CF07F4 /* practice_musicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice_musicAppUITests.swift; sourceTree = "<group>"; };
 		7DDAB3301FCC41E000CF07F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDAB33C1FCC4A4400CF07F4 /* tw080.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tw080.mp3; sourceTree = "<group>"; };
+		7DDAB33E1FCC4A4E00CF07F4 /* tw069.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tw069.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				7DDAB3171FCC41E000CF07F4 /* LaunchScreen.storyboard */,
 				7DDAB31A1FCC41E000CF07F4 /* Info.plist */,
 				7DDAB3121FCC41E000CF07F4 /* practice_musicApp.xcdatamodeld */,
+				7DDAB33C1FCC4A4400CF07F4 /* tw080.mp3 */,
+				7DDAB33E1FCC4A4E00CF07F4 /* tw069.mp3 */,
 			);
 			path = practice_musicApp;
 			sourceTree = "<group>";
@@ -237,6 +243,8 @@
 			files = (
 				7DDAB3191FCC41E000CF07F4 /* LaunchScreen.storyboard in Resources */,
 				7DDAB3161FCC41E000CF07F4 /* Assets.xcassets in Resources */,
+				7DDAB33F1FCC4A4E00CF07F4 /* tw069.mp3 in Resources */,
+				7DDAB33D1FCC4A4400CF07F4 /* tw080.mp3 in Resources */,
 				7DDAB3111FCC41E000CF07F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
